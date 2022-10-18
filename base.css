@@ -24,8 +24,14 @@ body {
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    display: flex;
+    background-color: white;
     min-height: 150px;
+}
+.nome-clinica h1{
+    margin-left: 200px;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .content {
     background-color: white;
@@ -33,6 +39,24 @@ body {
     padding: 20px;
 }
 .footer {
+    display: flex;
     background-color: rgb(99, 56, 240);
     min-height: 150px;
+}
+.social ul li a{
+    color:white;
+}
+table{
+    border-radius: 10px solid;
+}
+table .tabela-horarios{
+    color:white;
+    background-color: black;
+}
+.conteudo-principal{
+    display: flex;
+}
+.conteudo{
+    display: flex;
+    width: 300px;
 }
